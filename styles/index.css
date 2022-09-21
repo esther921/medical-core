@@ -3,14 +3,6 @@
     
 }
 
-@media (min-width: 481px) and (max-width: 768px){
-    .page1__links{
-        flex-direction: column;
-    }
-} 
-@media (min-width: 320px) and (max-width: 480px){} 
-@media (min-width: 769px) and (max-width: 1024px){}
-
 .main{
     background: #FFFFFF;
 
@@ -237,7 +229,7 @@
     flex-grow: 0;
 }
 
-.paragraph--page2{
+.paragraph--middle1{
     
     width: 351px;
     height: 60px;
@@ -263,7 +255,7 @@
     text-decoration: none;
 }
 
-.heading6--page2{
+.heading6--middle1{
     display:flex;
     width: 102px;
     
@@ -278,7 +270,7 @@
 }
 
 
-.heading6--page3{
+.heading6--middle2{
     width: 40px;
 }
 
@@ -305,7 +297,7 @@
 
 
 
-.paragraph--page3{
+.paragraph--middle2{
     width: 469px;
     height: 40px;
 }
@@ -333,7 +325,7 @@
     height: 375px;
 }
 
-.cards__card--img{
+.cards__card--duplicate{
     width: 240px;
     height: 385px;
     background: #FFFFFF;
@@ -436,21 +428,21 @@ flex-grow: 0;
 text-align: center;
 }
 
-.heading6--page4{
+.heading6--last{
     margin-top: 8rem; 
     width: 82px;
  height: 0rem;
   text-align: center;
 }
 
-.heading3--page4{
+.heading3--last{
 
     width: 200px;
   height: 40px;
   text-align: center;
 }
 
-.paragraph--page4{
+.paragraph--last{
     width: 450px;
   height: 0px;
   text-align: center;
@@ -474,7 +466,7 @@ color: #737373;
 }
 
 .page4__footer{
-    margin-left: 20rem;
+    margin-left: 22rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -482,15 +474,17 @@ color: #737373;
   left: 0px;
   right: 0px;
   top: 0px;
+  
+
 }
 
-.input{
+.page4__input{
     height: 3rem;
     border: 0px;
     width: 470px;
 }
 
-.input__button{
+.input{
     height: 3.2rem;
     width: 6rem;
     color: white;
@@ -501,7 +495,6 @@ color: #737373;
     background: #1BA0AB;
     border: 1px solid #E6E6E6;
     border-radius: 0px 5px 5px 0px;
-    
 }
 
 .input__subscribe{
